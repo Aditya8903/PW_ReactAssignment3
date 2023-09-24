@@ -1,0 +1,29 @@
+/* Container for the image details */
+.image-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Image title */
+  .image-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Image description */
+  .image-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Image */
+  .image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
