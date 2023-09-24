@@ -24,9 +24,13 @@ const ImageDetails = () => {
 
     return (
         <div className={styles['image-details-container']}> 
-            <p className={styles['image-title']}>Title: {imageData.title}</p>
-            <p className={styles['image-description']}>Description: {imageData.description}</p>
+            <div>
             <img src={imageData.url} alt={imageData.title} className={styles['image']} /> 
+            </div>
+            <div>
+            <p className={styles['image-title']}>{imageData.title}</p>
+            <p className={styles['image-description']}>{imageData.description}</p>
+            </div>
             
         </div>
     );
